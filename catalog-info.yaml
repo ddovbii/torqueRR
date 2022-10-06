@@ -1,0 +1,28 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: "torqueRR"
+  description: Standard Lambda Service
+  annotations:
+    "torque.io/space": "torqueRR"
+  tags:
+    - torque
+    - lambda
+    - terraform
+  links:
+    - url: https://portal.qtorque.io
+      title: Torque environment
+      icon: AccountTree
+      type: dashboard
+    - url: https://portal.qtorque.io
+      title: Torque blueprint
+      icon: dashboard
+      type: dashboard
+    - url: https://docs.qtorque.io
+      title: Torque documentation
+      icon: QuizOutlined
+      type: admin
+spec:
+  type: service
+  owner: david.stark@quali.com
+  lifecycle: experimental
