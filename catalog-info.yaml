@@ -4,7 +4,7 @@ metadata:
   name: "torqueRR"
   description: Standard Lambda Service
   annotations:
-    "torque.io/space": "torqueRR"
+    "torque.io/space": "Sample"
   tags:
     - torque
     - lambda
